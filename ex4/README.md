@@ -43,7 +43,8 @@ The `.dockerignore` has this single line entry and tells Docker to avoid copying
 Jump back to your terminal. If `apic edit` is still running, run `CTRL+C` to close the toolkit as we no longer need it. Copy over the `Dockerfile` and `.dockerignore` files into the LoopBack application directory.
 
 ```
-cp ~/workspace/docker-swarm-lab/ex4/* .
+cp ~/workspace/docker-swarm-lab/ex4/Dockerfile .
+cp ~/workspace/docker-swarm-lab/ex4/.dockerignore .
 ```
 
 ## Build the Docker image
